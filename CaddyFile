@@ -2,7 +2,7 @@ yourdomain.example.com {
 	reverse_proxy /v1/* https://api.openai.com {
 		header_up Host api.openai.com
 		header_up Authorization "{http.request.header.Authorization}"
-		header_up Authorization "Bearer sk-your-token"
+		header_up Authorization "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"
 	}
 
 	file_server / {
